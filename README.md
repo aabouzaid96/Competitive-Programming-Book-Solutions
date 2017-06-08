@@ -1,2 +1,2 @@
 # Competitive-Programming-Book
-Solve problems of chapter of Competitive Programming book using UVA online judge.
+Solve problems of chapters of Competitive Programming book using UVA online judge.
