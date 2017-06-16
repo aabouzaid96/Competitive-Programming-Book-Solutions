@@ -17,7 +17,7 @@ using namespace std;
 
 int main(){
 
-	freopen("Read.txt", "r", stdin);
+	//freopen("Read.txt", "r", stdin);
 	//freopen("output.txt", "w", stdout);
 	char s[10000];
 	while (scanf("%s", &s) && s[0] != '#'){
