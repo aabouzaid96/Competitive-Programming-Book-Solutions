@@ -36,7 +36,7 @@ void func(int len, int pos)
 	}
 }
 int main(){
-	freopen("read.txt", "r", stdin);
+	//freopen("read.txt", "r", stdin);
 
 	int Case = 0;
 	while (scanf("%d", &N) && N) {
