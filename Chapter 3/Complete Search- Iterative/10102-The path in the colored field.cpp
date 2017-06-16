@@ -18,7 +18,7 @@
 using namespace std;
 
 int main(){
-	freopen("read.txt", "r", stdin);
+	//freopen("read.txt", "r", stdin);
 	//freopen("output.txt", "w", stdout);
 
 	int n;
