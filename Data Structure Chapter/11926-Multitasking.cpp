@@ -20,7 +20,7 @@ bool cmd(int b, int a){
 }
 int main(){
 
-	freopen("Read.txt", "r", stdin);
+	//freopen("Read.txt", "r", stdin);
 	//freopen("output.txt", "w", stdout);
 	int n,m;
 	while (scanf("%d%d", &n, &m)){
