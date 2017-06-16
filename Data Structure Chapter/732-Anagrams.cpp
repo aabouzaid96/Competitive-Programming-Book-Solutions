@@ -46,7 +46,7 @@ void dfs(int idx, int i, int o) {
 
 int main(){
 
-	freopen("Read.txt", "r", stdin);
+	//freopen("Read.txt", "r", stdin);
 	//freopen("output.txt", "w", stdout);
 	while (gets(a)) {
 		gets(b);
