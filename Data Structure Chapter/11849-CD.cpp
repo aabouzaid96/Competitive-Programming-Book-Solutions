@@ -19,8 +19,8 @@ using namespace std;
 
 int main(){
 
-	freopen("Read.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
+	//freopen("Read.txt", "r", stdin);
+	//freopen("output.txt", "w", stdout);
 	
 	 long n, m;
 	while (scanf("%ld %ld", &n, &m) && (n!=0 && m!=0)){
