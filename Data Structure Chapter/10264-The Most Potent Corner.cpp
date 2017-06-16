@@ -18,8 +18,8 @@ using namespace std;
 
 int main(){
 
-	freopen("Read.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
+//	freopen("Read.txt", "r", stdin);
+//	freopen("output.txt", "w", stdout);
 	int n;
 	while (scanf("%d", &n) != EOF){
 		int l = pow(2, n);
