@@ -38,7 +38,7 @@ void rotate(){
 
 int main(){
 
-	freopen("Read.txt", "r", stdin);
+	//freopen("Read.txt", "r", stdin);
 
 	while (scanf("%d%d", &N, &n) && (n || N)){
 		getchar();
