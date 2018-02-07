@@ -32,26 +32,19 @@ void solve(int x,int y,int ind)
         return ;
     }
 
-    if((a[x][y+1]==S[ind] || a[x][y+1] =='#') && y+1 <m)
-    {
+    if((a[x][y+1]==S[ind] || a[x][y+1] =='#') && y+1 <m){
         V.push_back("right");
         solve(x,y+1,ind+1);
-
     }
-    else if((a[x][y-1]==S[ind] || a[x][y-1] =='#')&& y-1 >=0)
-    {
+    else if((a[x][y-1]==S[ind] || a[x][y-1] =='#')&& y-1 >=0){
         V.push_back("left");
         solve(x,y-1,ind+1);
-
-    }
-    else if((a[x-1][y]==S[ind] || a[x-1][y] =='#') && x-1 >=0)
-    {
+   }
+    else if((a[x-1][y]==S[ind] || a[x-1][y] =='#') && x-1 >=0) {
         V.push_back("forth");
         solve(x-1,y,ind+1);
-            }
-
+          }
 }
-
 int main()
 {
 
@@ -78,6 +71,4 @@ int main()
         }
         solve(st_x,st_y,0);
     }
-
-
 }
