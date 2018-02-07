@@ -31,7 +31,7 @@ void func(int i)
             v.push_back(D[w]);
             func(i+1);
             v.pop_back();
-        }
+        } 
     }
     if (P[i]=='0')
     {
