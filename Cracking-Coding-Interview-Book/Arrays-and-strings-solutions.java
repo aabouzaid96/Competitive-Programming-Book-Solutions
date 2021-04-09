@@ -33,3 +33,22 @@ Boolean isUniqueString(String s){
     return true;
 }
 =============================================================================================================
+## 1.2        
+Check Permutation: Given two strings, write a method to decide if one is a permutation of the other. 
+
+static boolean checkPermutation(String s1, String s2){
+//  we change the size of array depending on the problem constraing
+//  if only alpabitic => 58
+//  if only capital letters or small letter => 28
+        int [] count =new int [128];
+        for(char c: s1.toCharArray()){
+            count[c]++;
+        }
+        for(char c: s2.toCharArray()){
+            count[c]--;
+        }
+        for(int i=0;i<128;i++){
+            if(count[i]!=0) return false;
+        }
+        return true;
+    }
