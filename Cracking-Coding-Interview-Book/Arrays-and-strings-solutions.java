@@ -51,4 +51,14 @@ static boolean checkPermutation(String s1, String s2){
             if(count[i]!=0) return false;
         }
         return true;
+        
+        /*
+        more optimization
+        for(int i=0;i<s2.length();i++){
+            int charAscii=(int) s2.charAt(i);
+            count[charAcii]--;
+            if(count[charAcii]<0) return false; 
+            // if counter of first string is found more of the second, then the second sure has another char repeated more 
+        }
+        */
     }
