@@ -1,6 +1,7 @@
 1.1 Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you
 cannot use additional data structures?
 
+##Solution 1
 // using Set Data Structure
 //time O(n)  space O(n)
 // using additional data structure
@@ -11,7 +12,8 @@ Boolean isUniqueString(String str){
         }
     return S.size() == str.length();
 }
-
+--------------------------------------
+##Solution 2
 // using bet-vector
 //time O(n)  space O(0)
 // without additional data structure
@@ -28,5 +30,4 @@ Boolean isUniqueString(String s){
         }
     return true;
 }
-
 =============================================================================================================
